@@ -9,97 +9,102 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-<!-- låda 1 -->
+
+<!-- navigation -->
     <header>
         <nav>
-            <h1>Alice Landroe</h1>
+            <h1 id="home">Alice Landroe</h1>
             <ul class="nav-links">
-                <li>Home</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-<!-- låda 2 -->
+<!-- introduction section-->
 
-    <section class="introduction">
+    <section class="introduction clearfix">
         <img src="images/responsive-layout-profile.png" alt="">
-        <p>In publishing and graphic design, Lorem ipsum is a placeholder 
-            text commonly used to demonstrate the visual form of a document or 
-            a typeface without relying on meaningful content.</p>
+        <p>Hello! I'm a front-end developer who loves useing code to create 
+            usable and good-looking projects. I recently finished a degree in front-end web development 
+            at Treehouse and I'm excited to put my skills to use!
+
+        </p>
     </section>
 
-<!-- låda 3 -->
+<!-- portfolio section -->
 
-    <section class="portfolio">
-        <h2><strong>Portfolio</strong></h2>
+    <section class="portfolio clearfix">
+        <h2 id="portfolio"><strong>Portfolio</strong></h2>
         <div class="portfolio-projects">
-            <div>
+
+            <div class="marketing-project">
                 <img src="images/portfolio-1.png" alt="">
                 <h3>Marketing page</h3> 
-                <p>In publishing and graphic design, Lorem ipsum is a placeholder 
-                    text commonly used to demonstrate the visual form of a document or 
-                    a typeface without relying on meaningful content.</p>
+                <p>This project shows the front page of a marketing-projectwebsite meant for
+                    a specific business I'm interested in.
+                </p>
             </div>
 
-            <div>
+            <div class="search-page">
                 <img src="images/portfolio-2.png" alt="">
-                <h3>Marketing page</h3> 
-                <p>In publishing and graphic design, Lorem ipsum is a placeholder 
-                    text commonly used to demonstrate the visual form of a document or 
-                    a typeface without relying on meaningful content.</p>
+                <h3>Search page</h3> 
+                <p>This project searches through a specific database to find information 
+                    that the user is trying to look up.
+                </p>
             </div>
 
-            <div>
+            <div class="travel-app">
                 <img src="images/portfolio-3.png" alt="">
-                <h3>Marketing page</h3> 
-                <p>In publishing and graphic design, Lorem ipsum is a placeholder 
-                    text commonly used to demonstrate the visual form of a document or 
-                    a typeface without relying on meaningful content.</p>
+                <h3>Travel App</h3> 
+                <p>This project compares travel times based on different transportation
+                    methods and tells you the best one.
+                </p>
             </div>
 
-            <div>
+            <div class="map-project">
                 <img src="images/portfolio-4.png" alt="">
-                <h3>Marketing page</h3> 
-                <p>In publishing and graphic design, Lorem ipsum is a placeholder 
-                    text commonly used to demonstrate the visual form of a document or 
-                    a typeface without relying on meaningful content.</p>
+                <h3>Map of Favorite Spots</h3> 
+                <p>This project uses mapping apis to plot points for my Favoritespots in the 
+                    city for a do-it-yourself walking tour.
+                </p>
             </div>
 
-            <div>
+            <div class="photo-gallery">
                 <img src="images/portfolio-5.png" alt="">
-                <h3>Marketing page</h3> 
-                <p>In publishing and graphic design, Lorem ipsum is a placeholder 
-                    text commonly used to demonstrate the visual form of a document or 
-                    a typeface without relying on meaningful content.</p>
+                <h3>Photo Gallery</h3> 
+                <p>This project shows pictures from a recent trip to the viewer
+                    and allows them to easily navigate through photos.
+                </p>
             </div>
 
-            <div>
+            <div class="calculator">
                 <img src="images/portfolio-6.png" alt="">
-                <h3>Marketing page</h3> 
-                <p>In publishing and graphic design, Lorem ipsum is a placeholder 
-                    text commonly used to demonstrate the visual form of a document or 
-                    a typeface without relying on meaningful content.</p>
+                <h3>Calculator</h3> 
+                <p>Someone can enter in the numbers they want, and press the big 
+                    blue button and get the result.
+                </p>
             </div>
         </div>
     </section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>In publishing and graphic design, Lorem ipsum is a placeholder 
-            text commonly used to demonstrate the visual.</p>
-        <p>Phone: 9889321 321</p>
-        <p>Email: test@gmail.com</p>
+    <!-- contact section -->
+    <section class="contact">
+        <h2 id="contact">Contact</h2>
+        <p>If you're interested in chatting or want more information about 
+            what I've been working on, I'd love to hear from you!
+        </p>
+        <div class="contact-methods">
+            <p>Phone:  <strong> 888 888 888</strong></p>
+            <p>Email:  <strong> test@gmail.com</strong></p>
+         </div>
     </section>
 
+    <!-- footer -->
     <footer>
-        <p>Alice Landroe</p>
-        <ul>
-            <li>Home</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-        </ul>
+        <a href="#home">Alice Landroe</a>
+        <a href="#home">Back to top</a>
     </footer>
 
 </body>

@@ -4,6 +4,7 @@
 
 body {
     background-color: #F5F5F5;
+    margin: 0;
 }
 
 h1 {
@@ -23,7 +24,26 @@ h3 {
     margin: 0;
 }
 
+footer {
+    margin-top: 40px;
+    border-top: solid #A0A0A0 1px;
+    padding-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
 /* class selectors */
+
 .nav-links {
     list-style: none;
     padding: 0;
@@ -37,6 +57,11 @@ h3 {
     padding: 10px 0;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:black;
 }
 
 .introduction img {
@@ -77,4 +102,187 @@ h3 {
 
 .portfolio-projects img {
     width: 100%;
+}
+
+
+.contact h2 {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.contact p {
+    font-size: 0.9375em;
+    color: #585858;
+    text-align: center;
+    margin: 0 10px 10px 10px;
+}
+
+.contact-methods {
+    margin-top: 25px;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+
+/* header */
+    h1 {
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .nav-links {
+        font-size: 15px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .nav-links li {
+        display: inline-block;
+        background-color: transparent;
+    }
+ 
+/* introduction */
+
+    .introduction {
+        padding-bottom: 40px;
+    }
+
+    .introduction p {
+        width: 60%;
+        line-height: 25px;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    .introduction img {
+        float:right;
+        width: 35%;
+        margin: 0;
+        padding-right: 30px;
+        padding-left: 15px;
+    }
+/* portfolio projects */
+
+    .portfolio {
+        padding-bottom: 30px;
+    }
+
+    .marketing-project {
+        float: left;
+        width: 45.5%;
+        margin-left: 25px;
+   }
+
+    .search-page {
+        float: right;
+        width: 45.5%;
+        margin-right: 25px;
+    }
+
+    .travel-app {
+        float: left;
+        width: 45.5%;
+        margin-left: 25px;
+    }
+
+    .map-project {
+        float: right;
+        width: 45.5%;
+        margin-right: 25px;       
+    }
+
+    .photo-gallery {
+        float: left;
+        width: 45.5%;
+        margin-left: 25px;
+    }
+
+    .calculator {
+        float: right;
+        width: 45.5%;
+        margin-right: 25px;     
+    }
+
+    /* contact */
+
+
+    .contact p {
+        width: 55%;
+        margin: auto;
+        line-height: 25px;
+    }
+
+    .contact-methods p {
+        line-height: 35px;
+    }
+
+/* footer */
+
+    footer {
+        margin-top: 47.45px;
+    }
+
+
+/* clearfix */
+
+    .clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+@media (min-width: 1024px) {
+
+/* portfolio projects */
+
+.portfolio-projects {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marketing-project {
+    float: left;
+    width: 30%;
+    padding: 0;
+    margin: 0; 
+}
+
+.search-page {
+    float: left;
+    width: 30%;
+    padding: 0;
+    margin: 0; 
+}
+
+.travel-app {
+    float: right;
+    width: 30%;
+    padding: 0;
+    margin: 0; 
+}
+
+.map-project {
+    float: left;
+    width: 30%;  
+    padding: 0;
+    margin: 0;    
+}
+
+.photo-gallery {
+    float: left;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+
+.calculator {
+    float: right;
+    width: 30%; 
+    margin: 0;  
+}
+
 }
