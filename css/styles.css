@@ -121,6 +121,16 @@ footer a {
     margin-top: 25px;
 }
 
+.footer-links-tablet {
+    display: none;
+}
+
+
+
+
+
+
+
 /* media queries */
 
 @media (min-width: 768px) {
@@ -220,6 +230,30 @@ footer a {
 
 /* footer */
 
+    .footer-links-mobile {
+        display: none;
+    }
+
+    .footer-links-tablet {
+        display: block;
+        text-decoration: none;
+        list-style: none;
+        letter-spacing: 1px;
+        text-align: right;
+        width: 50%;
+    }
+
+    .footer-links-tablet li {
+        display: inline-block;
+        padding: 0 10px;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    .footer-alice-landroe-btn {
+        margin: 16px 0;
+    }
+
     footer {
         margin-top: 47.45px;
     }
@@ -236,53 +270,79 @@ footer a {
 
 @media (min-width: 1024px) {
 
+/* introduction */
+
+.introduction img {
+    margin-right: 50px;
+    padding-left: 40px;
+}
+
+.introduction p {
+    font-size: 20px;
+    margin-left: 60px;
+    width: 54%;
+}
+
 /* portfolio projects */
 
+.portfolio {
+    margin: 0 20px 30px 20px;
+}
+
 .portfolio-projects {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 20px;
+    padding: 0 5px;
+}
+
+.portfolio-projects p {
+    margin-bottom: 30px;
+    
 }
 
 .marketing-project {
     float: left;
-    width: 30%;
+    width: 32%;
     padding: 0;
     margin: 0; 
 }
 
 .search-page {
     float: left;
-    width: 30%;
-    padding: 0;
-    margin: 0; 
+    width: 32%;
+    margin: 0 2%;
 }
 
 .travel-app {
     float: right;
-    width: 30%;
+    width: 32%;
     padding: 0;
     margin: 0; 
 }
 
 .map-project {
     float: left;
-    width: 30%;  
+    width: 32%;  
     padding: 0;
     margin: 0;    
 }
 
 .photo-gallery {
     float: left;
-    width: 30%;
-    padding: 0;
-    margin: 0;
+    width: 32%;
+    margin: 0 2%;
 }
 
 .calculator {
     float: right;
-    width: 30%; 
+    width: 32%; 
     margin: 0;  
 }
+/* contact section */
+
+.contact p {
+    width: 35%;
+    margin: 0 auto;
+}
+
 
 }
