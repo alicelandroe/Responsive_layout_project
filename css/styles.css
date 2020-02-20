@@ -13,13 +13,14 @@ h1 {
 }
 
 h2 {
-    font-size: 0.9375em;
+    font-size: 1em;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 h3 {
+    font-size: 15px;
     color: #383838;
     padding-top: 25px;
     margin: 0;
@@ -43,8 +44,9 @@ footer a {
     color: black;
 }
 
-/* class selectors */
+/* class selectors for specific parts of the page*/
 
+/* navigation */
 .nav-links {
     list-style: none;
     padding: 0;
@@ -65,6 +67,8 @@ footer a {
     color:black;
 }
 
+/* introduction section */
+
 .introduction img {
     display: block;
     margin-left: auto;
@@ -81,8 +85,14 @@ footer a {
 
 }
 
-.portfolio {
+/* portfolio projects, some skill section design */
+.portfolio,
+.skills {
     background-color: white;
+}
+
+.skills {
+    padding-bottom: 20px;
 }
 
 .portfolio h2 {
@@ -96,6 +106,7 @@ footer a {
 }
 
 .portfolio-projects p {
+    text-align: center;
     font-size: 0.9375em;
     padding: 0 10px 15px 10px;
     color: #585858;
@@ -105,6 +116,26 @@ footer a {
     width: 100%;
 }
 
+/* skills section */
+
+.skills p {
+    text-align: center;
+    font-size: 0.9375em;
+    padding: 0 10px 5px 10px;
+    color: #585858;
+}
+
+.skills h2 {
+    padding-top: 40px;
+    margin-top: 30px;
+}
+
+.skills h3 {
+    text-align: center;
+    margin: 0;
+}
+
+/* contact section */
 
 .contact h2 {
     padding-top: 35px;
@@ -121,6 +152,8 @@ footer a {
 .contact-methods {
     margin-top: 25px;
 }
+
+/* footer */
 
 .footer-links-tablet {
     display: none;
@@ -210,6 +243,43 @@ footer a {
         width: 45.5%;
         margin-right: 25px;     
     }
+
+    /* skills section */
+
+    /* .skill-css,
+    .skill-html,
+    .skill-javascript {
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+    } */
+
+
+    /* .skill-css,
+    .skill-html,
+    .skill-javascript {
+        width: 30%;
+        border: solid grey 1px;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .skill-css {
+        float: left;
+        margin-left: 25px;
+    }
+    
+    .skill-html {
+        float: left;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+    
+    .skill-javascript {
+        float: right;
+        margin-right: 25px;
+    } */
 
     /* contact */
 
