@@ -208,6 +208,19 @@ footer a {
         padding-bottom: 30px;
     }
 
+    .portfolio-projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 3%;
+    }
+
+    .portfolio-projects div {
+        width: 49%;
+
+    }
+    /* 
+
     .marketing-project {
         float: left;
         width: 45.5%;
@@ -242,9 +255,20 @@ footer a {
         float: right;
         width: 45.5%;
         margin-right: 25px;     
-    }
+    } */
 
     /* skills section */
+
+    .skills-items {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 13px;
+    }
+
+    .skills-items div {
+        width: 32%;
+    }     
+
 
     /* .skill-css,
     .skill-html,
