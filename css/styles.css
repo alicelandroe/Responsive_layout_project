@@ -26,6 +26,15 @@ h3 {
     margin: 0;
 }
 
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+
 footer {
     margin-top: 40px;
     border-top: solid #A0A0A0 1px;
@@ -64,7 +73,6 @@ footer a {
 
 .nav-links a {
     text-decoration: none;
-    color:black;
 }
 
 /* introduction section */
@@ -212,52 +220,18 @@ footer a {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 0 3%;
+        margin: 0 4%;
     }
 
     .portfolio-projects div {
         width: 49%;
-
     }
-    /* 
-
-    .marketing-project {
-        float: left;
-        width: 45.5%;
-        margin-left: 25px;
-   }
-
-    .search-page {
-        float: right;
-        width: 45.5%;
-        margin-right: 25px;
-    }
-
-    .travel-app {
-        float: left;
-        width: 45.5%;
-        margin-left: 25px;
-    }
-
-    .map-project {
-        float: right;
-        width: 45.5%;
-        margin-right: 25px;       
-    }
-
-    .photo-gallery {
-        float: left;
-        width: 45.5%;
-        margin-left: 25px;
-    }
-
-    .calculator {
-        float: right;
-        width: 45.5%;
-        margin-right: 25px;     
-    } */
 
     /* skills section */
+
+    .skills {
+        margin: 0 20px;
+    }
 
     .skills-items {
         display: flex;
@@ -268,42 +242,6 @@ footer a {
     .skills-items div {
         width: 32%;
     }     
-
-
-    /* .skill-css,
-    .skill-html,
-    .skill-javascript {
-        flex-direction: row-reverse;
-        flex-wrap: nowrap;
-    } */
-
-
-    /* .skill-css,
-    .skill-html,
-    .skill-javascript {
-        width: 30%;
-        border: solid grey 1px;
-        padding-bottom: 20px;
-        margin-bottom: 40px;
-    }
-    
-    .skill-css {
-        float: left;
-        margin-left: 25px;
-    }
-    
-    .skill-html {
-        float: left;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-
-    
-    .skill-javascript {
-        float: right;
-        margin-right: 25px;
-    } */
 
     /* contact */
 
@@ -379,53 +317,19 @@ footer a {
     margin: 0 20px 30px 20px;
 }
 
+.portfolio {
+    padding-bottom: 30px;
+}
+
 .portfolio-projects {
-    margin: 0 20px;
-    padding: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 4%;
 }
 
-.portfolio-projects p {
-    margin-bottom: 30px;
-    
-}
-
-.marketing-project {
-    float: left;
+.portfolio-projects div {
     width: 32%;
-    padding: 0;
-    margin: 0; 
-}
-
-.search-page {
-    float: left;
-    width: 32%;
-    margin: 0 2%;
-}
-
-.travel-app {
-    float: right;
-    width: 32%;
-    padding: 0;
-    margin: 0; 
-}
-
-.map-project {
-    float: left;
-    width: 32%;  
-    padding: 0;
-    margin: 0;    
-}
-
-.photo-gallery {
-    float: left;
-    width: 32%;
-    margin: 0 2%;
-}
-
-.calculator {
-    float: right;
-    width: 32%; 
-    margin: 0;  
 }
 /* contact section */
 
