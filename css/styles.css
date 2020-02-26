@@ -35,7 +35,7 @@ a:hover {
 }
 
 
-footer {
+footer nav {
     margin-top: 40px;
     border-top: solid #A0A0A0 1px;
     padding-top: 20px;
@@ -167,6 +167,9 @@ footer a {
 }
 
 /* footer */
+.footer-alice-landroe-btn {
+    font-family: 'Arvo', serif;
+}
 
 .footer-links-tablet {
     display: none;
@@ -273,7 +276,6 @@ footer a {
         list-style: none;
         letter-spacing: 1px;
         text-align: right;
-        width: 50%;
     }
 
     .footer-links-tablet li {
@@ -302,6 +304,42 @@ footer a {
 }
 
 @media (min-width: 1024px) {
+
+/* top navigation */
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav-links {
+    max-width: 50%;
+    margin: 0;
+}
+
+#home {
+    margin-top: 0;
+    margin-left: 60px;
+}
+
+header ul {
+    margin-left: 0;
+}
+
+/* h1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 60px;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+} */
+
 
 /* introduction */
 
